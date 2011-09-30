@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : properties.xml
+    Created on : November 4, 2010, 10:35 AM
+    Author     : alistair and daisy
+    Description:
+        Webapp properties for McMaster Marauders football team.
+-->
+
+<!DOCTYPE properties SYSTEM 'properties.dtd'>
+<properties>
+    
+	<property key="school">McMaster</property>
+    <property key="teamname">Marauders</property>
+	<property key="city">Hamilton, Ontario</property>
+	<property key="schoolpage">"http://www.mcmaster.ca/"</property>
+	<property key="teampage">"http://www.marauders.ca/index.aspx?tab=football&path=football"</property>
+	<property key="cispage">"http://english.cis-sic.ca/landing/index"</property>
+	
+	
+
+</properties>

@@ -1,0 +1,9 @@
+<!--
+    DTD to constrain an XML properties file
+-->
+
+<!-- A properties.xml file contains multiple property elements,
+each with a key and value  -->
+<!ELEMENT properties (property)*>
+<!ELEMENT property (#PCDATA)>
+<!ATTLIST property key CDATA #REQUIRED >
