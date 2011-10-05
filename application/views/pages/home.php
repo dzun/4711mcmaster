@@ -15,17 +15,17 @@
                     <td>
                         <a href="http://www.marauders.ca/index.aspx?tab=football&path=football" 
                            target=_new> 
-                            <img src="assets/pics/maraudersLogoalphawhitemaroon.png" width="100px" height="100px">
+                            <img src="assets/pics/maraudersLogoalphawhitemaroonsmall.png">
                         </a>
                     </td>
                     <td>
                         <a href="http://www.mcmaster.ca/" target=_new> 
-                            <img src="assets/pics/logomcmasteralpha.png" width="143px" height="80px">
+                            <img src="assets/pics/logomcmasteralphasmall.png">
                         </a>
                     </td>
                     <td>
                         <a href="http://english.cis-sic.ca/landing/index" target=_new>
-                            <img src="assets/pics/cislogoalpha.png" width="100px" height="50px">
+                            <img src="assets/pics/cislogoalphasmall.png">
                         </a>
                     </td>
                 </tr>

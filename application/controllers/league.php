@@ -13,11 +13,9 @@ class league extends CI_Controller
     public function index()
     {
         $data['title'] = '4711 project';
+        $data['body'] = 'league';
 
-        $this->load->view('templates/header', $data);
-        $this->load->view('templates/navigation');
-        $this->load->view('pages/league', $data);
-        $this->load->view('templates/footer');
+        $this->load->view('templates/template', $data);
     }
 }
 ?>

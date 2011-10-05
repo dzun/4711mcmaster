@@ -13,11 +13,9 @@ class schedule extends CI_Controller
     public function index()
     {
         $data['title'] = '4711 project';
+        $data['body'] = 'schedule';
 
-        $this->load->view('templates/header', $data);
-        $this->load->view('templates/navigation');
-        $this->load->view('pages/schedule', $data);
-        $this->load->view('templates/footer');
+        $this->load->view('templates/template', $data);
     }
 }
 ?>
