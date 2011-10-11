@@ -17,13 +17,11 @@ root {
 
 body {
 
-    /*background-color: #444;
-    background-image: url('/assets/pics/logomcmasteralpha.png');*/
-    background-image: url('/assets/pics/logomcmasterbackground.jpg');
-    background-repeat: no-repeat;
+    /*background-color: #444;*/
+    background-image: url('/assets/pics/logomcmasterbackgroundalpha.png'), url('/assets/pics/BtoWGradient.jpg');
+    background-repeat: no-repeat, repeat-x;
     background-position: right bottom;
     background-attachment: fixed; 
-
 }
 
 .navigation a {
@@ -83,7 +81,6 @@ div.navigation  {
     text-align: left;
     width: 958px;
     padding-left: 2px;
-
     background-color: #690030;
 }
 
@@ -92,7 +89,7 @@ div.body {
     margin-right: auto;
     width: 956px;
     height: 400px;
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255,255,255,0.7);
     outline-color: #690030;
     outline-width: 2px;
     outline-style: solid;
@@ -125,5 +122,4 @@ div.footer {
     width: 960px;
     background-color: #690030;
     color: white;
-
 }

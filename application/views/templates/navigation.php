@@ -1,23 +1,11 @@
-<html>
+<div class="navigation">
 
-    <body>
-        <div class="navigation">
+    <a href ="/home">Home</a>
+    <a href ="/roster">Roster</a>
+    <a href ="/league">League</a>
+    <a href ="/schedule">Schedule</a>           
+    <a href ="/update">Update</a>  
+    <a href ="/predict">Predict</a>
 
-            <a href ="home">Home</a>
-            <a href ="roster">Roster</a>
-            <a href ="league">League</a>
-            <a href ="schedule">Schedule</a>           
-            <a href ="update">Update</a>  
-            <a href ="predict">Predict</a>
-            
-            <br />
-        </div>
-
-        <?php
-        /*
-         * To change this template, choose Tools | Templates
-         * and open the template in the editor.
-         */
-        ?>
-    </body>
-</html>
+    <br />
+</div>
