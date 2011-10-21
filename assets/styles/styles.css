@@ -1,0 +1,125 @@
+/* 
+    Document   : styles
+    Created on : Sep 27, 2011, 5:10:42 PM
+    Author     : Alistair
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+body {
+
+    /*background-color: #444;*/
+    background-image: url('/assets/pics/logomcmasterbackgroundalpha.png'), url('/assets/pics/BtoWGradient.jpg');
+    background-repeat: no-repeat, repeat-x;
+    background-position: right bottom;
+    background-attachment: fixed; 
+}
+
+.navigation a {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 1px;
+    text-decoration: none;
+    border-top-right-radius: 50px;
+    font-family: Verdana,Arial,Helvetica,sans-serif; 
+    font-weight: 400;
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+    border-bottom: 1px solid rgba(0,0,0,0.25); 
+}
+.navigation a:link  {
+    color:  black;
+    background-color: white;  
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.navigation a:visited   {
+    color:  black;
+    background-color: white;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.navigation a:hover {
+    color:  black;
+    background-color: darkgray;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+.footer a   {
+    text-decoration: none;
+}
+
+.footer a:link  {
+    color: white;
+}
+
+.footer a:visited   {
+    color: white;
+}
+
+div.headerpicture {
+    text-align: center;
+}
+
+div.navigation  {
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 958px;
+    padding-left: 2px;
+    background-color: #690030;
+}
+
+div.body {
+    margin-left: auto;
+    margin-right: auto;
+    width: 956px;
+    height: 400px;
+    background-color: rgba(255,255,255,0.7);
+    outline-color: #690030;
+    outline-width: 2px;
+    outline-style: solid;
+}
+
+div.center {
+    text-align: center;
+}
+
+#text {
+    padding-left: 20px;
+}
+
+div.content {
+    padding-left: 15px;
+}
+
+#linktable {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div.footer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 960px;
+    background-color: #690030;
+    color: white;
+}
