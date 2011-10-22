@@ -15,6 +15,10 @@ class roster extends CI_Controller
         $data['title'] = '4711 project';
         $data['body'] = 'roster';
 
+        if (isset($_POST['sortby'])) {
+            $data['sortby'] = $_POST['sortby'];
+        }
+
         $this->load->view('templates/template', $data);
     }
 }
