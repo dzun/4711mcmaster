@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/MaraudersRoster.dtd
+-->
+
+<!--- Indicates that at least one player is nested inside players. -->
+<!ELEMENT players (player)*>
+
+<!--- Indicates that highschool,hometown,year,faculty_program,elig,weight,in.,
+        ft.,position,last_name,first_name,number elements are required 
+        for each player -->
+<!ELEMENT player (number,first_name,last_name,position,ft.,in.,
+        weight,elig,faculty_program,year,hometown,highschool)>
+
+<!--- Defines the number data to be #PCDATA. -->
+<!ELEMENT number (#PCDATA)>
+
+<!--- Defines the first_name data to be #PCDATA. -->
+<!ELEMENT first_name (#PCDATA)>
+
+<!--- Defines the last_name data to be #PCDATA. -->
+<!ELEMENT last_name (#PCDATA)>
+
+<!--- Defines the position data to be #PCDATA. -->
+<!ELEMENT position (#PCDATA)>
+
+<!--- Defines the ft. data to be #PCDATA. -->
+<!ELEMENT ft. (#PCDATA)>
+
+<!--- Defines the in. data to be #PCDATA. -->
+<!ELEMENT in. (#PCDATA)>
+
+<!--- Defines the weight data to be #PCDATA. -->
+<!ELEMENT weight (#PCDATA)>
+
+<!--- Defines the elig data to be #PCDATA. -->
+<!ELEMENT elig (#PCDATA)>
+
+<!--- Defines the faculty_program data to be #PCDATA. -->
+<!ELEMENT faculty_program (#PCDATA)>
+
+<!--- Defines the year data to be #PCDATA. -->
+<!ELEMENT year (#PCDATA)>
+
+<!--- Defines the hometown data to be #PCDATA. -->
+<!ELEMENT hometown (#PCDATA)>
+
+<!--- Defines the highschool data to be #PCDATA. -->
+<!ELEMENT highschool (#PCDATA)>

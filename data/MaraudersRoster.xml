@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : MaraudersRoster.xml
+    Created on : October 21, 2010, 5:18 AM
+    Author     : alistair and daisy
+    Description:
+        Roster for the McMaster Marauders football team.
+-->
+
+<!DOCTYPE players SYSTEM 'MaraudersRoster.dtd'>
+
+<players>
+    <player>
+        <number>1</number>
+        <first_name>Michael</first_name>
+        <last_name>Dicroce</last_name>
+        <position>WR</position>
+        <ft.>5</ft.>
+        <in.>11</in.>
+        <weight>192</weight>
+        <elig>3</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>2</year>
+        <hometown>Hamilton On</hometown>
+        <highschool>Bishop Ryan Cath S S</highschool>
+    </player>
+    <player>
+        <number>2</number>
+        <first_name>Marshall</first_name>
+        <last_name>Ferguson</last_name>
+        <position>QB</position>
+        <ft.>6</ft.>
+        <in.>2</in.>
+        <weight>200</weight>
+        <elig>2</elig>
+        <faculty_program>Political Science</faculty_program>
+        <year>2</year>
+        <hometown>Kingston On</hometown>
+        <highschool>Frontenac S S</highschool>
+    </player>
+    <player>
+        <number>3</number>
+        <first_name>Trevor</first_name>
+        <last_name>Gary</last_name>
+        <position>LB</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>200</weight>
+        <elig>4</elig>
+        <faculty_program>Economics</faculty_program>
+        <year>3</year>
+        <hometown>Mississauga On</hometown>
+        <highschool>Oakville Trafalgar H S</highschool>
+    </player>
+    <player>
+        <number>4</number>
+        <first_name>Tyler</first_name>
+        <last_name>Crapigna</last_name>
+        <position>K/P</position>
+        <ft.>5</ft.>
+        <in.>7</in.>
+        <weight>156</weight>
+        <elig>2</elig>
+        <faculty_program>Environmental and Earth Science</faculty_program>
+        <year>1</year>
+        <hometown>Nepean On</hometown>
+        <highschool>St Pauls Cath H S</highschool>
+    </player>
+    <player>
+        <number>5</number>
+        <first_name>Max</first_name>
+        <last_name>Cameron</last_name>
+        <position>WR</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>175</weight>
+        <elig>1</elig>
+        <faculty_program>Business</faculty_program>
+        <year>1</year>
+        <hometown>St Catharines On</hometown>
+        <highschool>Sir Winston Churchill S S</highschool>
+    </player>
+    <player>
+        <number>5</number>
+        <first_name>Kasean</first_name>
+        <last_name>Davis-Reynolds</last_name>
+        <position>RB</position>
+        <ft.>5</ft.>
+        <in.>11</in.>
+        <weight>190</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Mississauga On</hometown>
+        <highschool>St Francis Xavier S S</highschool>
+    </player>
+    <player>
+        <number>6</number>
+        <first_name>Dahlin</first_name>
+        <last_name>Brooks</last_name>
+        <position>WR</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>180</weight>
+        <elig>2</elig>
+        <faculty_program>Classics</faculty_program>
+        <year>2</year>
+        <hometown>Kitchener On</hometown>
+        <highschool>Forest Heights C I</highschool>
+    </player>
+    <player>
+        <number>7</number>
+        <first_name>Nick</first_name>
+        <last_name>Shortill</last_name>
+        <position>LB</position>
+        <ft.>6</ft.>
+        <in.>2</in.>
+        <weight>208</weight>
+        <elig>1</elig>
+        <faculty_program>Life Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Nobleton On</hometown>
+        <highschool>King City S S</highschool>
+    </player>
+    <player>
+        <number>8</number>
+        <first_name>Michael</first_name>
+        <last_name>Daly</last_name>
+        <position>DB</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>185</weight>
+        <elig>3</elig>
+        <faculty_program>Geography</faculty_program>
+        <year>2</year>
+        <hometown>Kitchener On</hometown>
+        <highschool>Forest Heights C I</highschool>
+    </player>
+    <player>
+        <number>9</number>
+        <first_name>Allan</first_name>
+        <last_name>Dicks</last_name>
+        <position>DB</position>
+        <ft.>5</ft.>
+        <in.>9</in.>
+        <weight>186</weight>
+        <elig>2</elig>
+        <faculty_program>Commerce</faculty_program>
+        <year>2</year>
+        <hometown>Abbotsford Bc</hometown>
+        <highschool>W J Mouat S S</highschool>
+    </player>
+    <player>
+        <number>10</number>
+        <first_name>Brian</first_name>
+        <last_name>Domenicucci</last_name>
+        <position>DB</position>
+        <ft.>6</ft.>
+        <in.>3</in.>
+        <weight>200</weight>
+        <elig>2</elig>
+        <faculty_program>H Kinesiology</faculty_program>
+        <year>2</year>
+        <hometown>Sherkston On</hometown>
+        <highschool>Lakeshore Cath H S</highschool>
+    </player>
+    <player>
+        <number>11</number>
+        <first_name>Ben</first_name>
+        <last_name>O\'Connor</last_name>
+        <position>WR</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>185</weight>
+        <elig>1</elig>
+        <faculty_program>H Health Studies</faculty_program>
+        <year>2</year>
+        <hometown>Kingston On</hometown>
+        <highschool>Frontenac S S</highschool>
+    </player>
+    <player>
+        <number>12</number>
+        <first_name>Kyle</first_name>
+        <last_name>Quinlan</last_name>
+        <position>QB</position>
+        <ft.>6</ft.>
+        <in.>3</in.>
+        <weight>215</weight>
+        <elig>4</elig>
+        <faculty_program>H Economics</faculty_program>
+        <year>3</year>
+        <hometown>South Woodslee On</hometown>
+        <highschool>Cardinal Carter S S</highschool>
+    </player>
+    <player>
+        <number>13</number>
+        <first_name>Shane</first_name>
+        <last_name>Beaton</last_name>
+        <position>LB</position>
+        <ft.>5</ft.>
+        <in.>11</in.>
+        <weight>193</weight>
+        <elig>4</elig>
+        <faculty_program>Sociology</faculty_program>
+        <year>3</year>
+        <hometown>Brampton On</hometown>
+        <highschool>Edmund Campion S S</highschool>
+    </player>
+    <player>
+        <number>15</number>
+        <first_name>Joseph</first_name>
+        <last_name>Richardson</last_name>
+        <position>LB</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>220</weight>
+        <elig>1</elig>
+        <faculty_program>Business</faculty_program>
+        <year>1</year>
+        <hometown>Waterdown On</hometown>
+        <highschool>Waterdown Dist H S</highschool>
+    </player>
+    <player>
+        <number>16</number>
+        <first_name>Shaughn</first_name>
+        <last_name>Reilly</last_name>
+        <position>QB</position>
+        <ft.>6</ft.>
+        <in.>2</in.>
+        <weight>170</weight>
+        <elig>1</elig>
+        <faculty_program>H Kinesiology</faculty_program>
+        <year>4</year>
+        <hometown>Grimsby On</hometown>
+        <highschool>Blessed Trinity Cath S S</highschool>
+    </player>
+    <player>
+        <number>17</number>
+        <first_name>Brendan</first_name>
+        <last_name>Fitzpatrick</last_name>
+        <position>DB</position>
+        <ft.>5</ft.>
+        <in.>8</in.>
+        <weight>155</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Hamilton On</hometown>
+        <highschool>Cardinal Newman S S</highschool>
+    </player>
+    <player>
+        <number>18</number>
+        <first_name>Joey</first_name>
+        <last_name>Cupido</last_name>
+        <position>DB</position>
+        <ft.>5</ft.>
+        <in.>10</in.>
+        <weight>175</weight>
+        <elig>3</elig>
+        <faculty_program>H Kinesiology</faculty_program>
+        <year>3</year>
+        <hometown>Hamilton On</hometown>
+        <highschool>St Jean De Brebeuf Cath S S</highschool>
+    </player>
+    <player>
+        <number>19</number>
+        <first_name>Jarred</first_name>
+        <last_name>Jones</last_name>
+        <position>WR</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>184</weight>
+        <elig>5</elig>
+        <faculty_program>Philosophy</faculty_program>
+        <year>3</year>
+        <hometown>Scarborough On</hometown>
+        <highschool>Birchmount Park C I</highschool>
+    </player>
+    <player>
+        <number>20</number>
+        <first_name>Christopher</first_name>
+        <last_name>Pezzetta</last_name>
+        <position>RB</position>
+        <ft.>5</ft.>
+        <in.>10</in.>
+        <weight>205</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Burlington On</hometown>
+        <highschool>Notre Dame Roman Cath S S</highschool>
+    </player>
+    <player>
+        <number>20</number>
+        <first_name>Andrew</first_name>
+        <last_name>Sinclair</last_name>
+        <position>WR</position>
+        <ft.>5</ft.>
+        <in.>11</in.>
+        <weight>185</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Denfield On</hometown>
+        <highschool>Medway H S</highschool>
+    </player>
+    <player>
+        <number>22</number>
+        <first_name>James</first_name>
+        <last_name>Hill</last_name>
+        <position>RB</position>
+        <ft.>5</ft.>
+        <in.>10</in.>
+        <weight>185</weight>
+        <elig>2</elig>
+        <faculty_program>Geography</faculty_program>
+        <year>2</year>
+        <hometown>Hamilton On</hometown>
+        <highschool>Sir Allan Macnab S S</highschool>
+    </player>
+    <player>
+        <number>23</number>
+        <first_name>Gary</first_name>
+        <last_name>Spero</last_name>
+        <position>WR</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>189</weight>
+        <elig>2</elig>
+        <faculty_program>Philosophy</faculty_program>
+        <year>2</year>
+        <hometown>St Catharines On</hometown>
+        <highschool>Sir Winston Churchill S S</highschool>
+    </player>
+    <player>
+        <number>24</number>
+        <first_name>Matthew</first_name>
+        <last_name>Peressini</last_name>
+        <position>WR</position>
+        <ft.>5</ft.>
+        <in.>11</in.>
+        <weight>172</weight>
+        <elig>5</elig>
+        <faculty_program>Continuing</faculty_program>
+        <year>1</year>
+        <hometown>Ancaster On</hometown>
+        <highschool>Bishop Ryan Cath S S</highschool>
+    </player>
+    <player>
+        <number>25</number>
+        <first_name>Zachary</first_name>
+        <last_name>Ismael</last_name>
+        <position>DB</position>
+        <ft.>5</ft.>
+        <in.>7</in.>
+        <weight>188</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>2</year>
+        <hometown>Binbrook On</hometown>
+        <highschool>Barton S S</highschool>
+    </player>
+    <player>
+        <number>25</number>
+        <first_name>Trevor</first_name>
+        <last_name>Reid</last_name>
+        <position>WR</position>
+        <ft.>6</ft.>
+        <in.>2</in.>
+        <weight>190</weight>
+        <elig>1</elig>
+        <faculty_program>Math and Stats</faculty_program>
+        <year>1</year>
+        <hometown>Oakville On</hometown>
+        <highschool>St Thomas Aquinas S S</highschool>
+    </player>
+    <player>
+        <number>26</number>
+        <first_name>Steven</first_name>
+        <last_name>Ventresca</last_name>
+        <position>DB</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>180</weight>
+        <elig>2</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Hamilton On</hometown>
+        <highschool>Bishop Ryan Cath S S</highschool>
+    </player>
+    <player>
+        <number>27</number>
+        <first_name>Scott</first_name>
+        <last_name>Martin</last_name>
+        <position>DB</position>
+        <ft.>5</ft.>
+        <in.>9</in.>
+        <weight>183</weight>
+        <elig>1</elig>
+        <faculty_program>H Kinesiology</faculty_program>
+        <year>2</year>
+        <hometown>London On</hometown>
+        <highschool>A B Lucas S S</highschool>
+    </player>
+    <player>
+        <number>27</number>
+        <first_name>Nico</first_name>
+        <last_name>Jones</last_name>
+        <position>DB</position>
+        <ft.>5</ft.>
+        <in.>11</in.>
+        <weight>185</weight>
+        <elig>1</elig>
+        <faculty_program>H Political Science</faculty_program>
+        <year>2</year>
+        <hometown>Upper Hammonds Plains Ns</hometown>
+        <highschool>Charles P Allen H S</highschool>
+    </player>
+    <player>
+        <number>29</number>
+        <first_name>Mathew</first_name>
+        <last_name>Kit</last_name>
+        <position>DB</position>
+        <ft.>5</ft.>
+        <in.>9</in.>
+        <weight>190</weight>
+        <elig>1</elig>
+        <faculty_program>H Geography</faculty_program>
+        <year>2</year>
+        <hometown>Stoney Creek On</hometown>
+        <highschool>Orchard Park S S</highschool>
+    </player>
+    <player>
+        <number>30</number>
+        <first_name>Cory</first_name>
+        <last_name>Bye</last_name>
+        <position>DL</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>235</weight>
+        <elig>5</elig>
+        <faculty_program>H Communication Studies</faculty_program>
+        <year>4</year>
+        <hometown>Kitchener On</hometown>
+        <highschool>Bluevale C I</highschool>
+    </player>
+    <player>
+        <number>32</number>
+        <first_name>Scott</first_name>
+        <last_name>Caterine</last_name>
+        <position>DL</position>
+        <ft.>6</ft.>
+        <in.>5</in.>
+        <weight>255</weight>
+        <elig>3</elig>
+        <faculty_program>H Kinesiology</faculty_program>
+        <year>4</year>
+        <hometown>Burlington On</hometown>
+        <highschool>Robert Bateman H S</highschool>
+    </player>
+    <player>
+        <number>33</number>
+        <first_name>Stephen</first_name>
+        <last_name>Dennis</last_name>
+        <position>DB</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>185</weight>
+        <elig>3</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>2</year>
+        <hometown>Burlington On</hometown>
+        <highschool>Notre Dame Roman Cath S S</highschool>
+    </player>
+    <player>
+        <number>34</number>
+        <first_name>Michael</first_name>
+        <last_name>Topolinski</last_name>
+        <position>RB</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>180</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Richmond Hill On</hometown>
+        <highschool>Upper Canada College</highschool>
+    </player>
+    <player>
+        <number>35</number>
+        <first_name>Joey</first_name>
+        <last_name>Nemet</last_name>
+        <position>RB</position>
+        <ft.>5</ft.>
+        <in.>11</in.>
+        <weight>205</weight>
+        <elig>5</elig>
+        <faculty_program>H Kinesiology</faculty_program>
+        <year>4</year>
+        <hometown>Burlington On</hometown>
+        <highschool>Robert Bateman H S</highschool>
+    </player>
+    <player>
+        <number>37</number>
+        <first_name>Roberto</first_name>
+        <last_name>Filice</last_name>
+        <position>DL</position>
+        <ft.>6</ft.>
+        <in.>3</in.>
+        <weight>180</weight>
+        <elig>4</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>3</year>
+        <hometown>Stoney Creek On</hometown>
+        <highschool>Cardinal Newman S S</highschool>
+    </player>
+    <player>
+        <number>38</number>
+        <first_name>Daniel</first_name>
+        <last_name>Baronas</last_name>
+        <position>LB</position>
+        <ft.>5</ft.>
+        <in.>11</in.>
+        <weight>195</weight>
+        <elig>4</elig>
+        <faculty_program>H Kinesiology</faculty_program>
+        <year>4</year>
+        <hometown>St Catharines On</hometown>
+        <highschool>Denis Morris H S</highschool>
+    </player>
+    <player>
+        <number>39</number>
+        <first_name>Delmar</first_name>
+        <last_name>Miller</last_name>
+        <position>DB</position>
+        <ft.>5</ft.>
+        <in.>10</in.>
+        <weight>183</weight>
+        <elig>2</elig>
+        <faculty_program>Communcation Studies</faculty_program>
+        <year>2</year>
+        <hometown>Kitchener On</hometown>
+        <highschool>Forest Heights C I</highschool>
+    </player>
+    <player>
+        <number>40</number>
+        <first_name>Dylan</first_name>
+        <last_name>Roesch-Crane</last_name>
+        <position>LB</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>218</weight>
+        <elig>3</elig>
+        <faculty_program>H English and History</faculty_program>
+        <year>2</year>
+        <hometown>Port Colborne On</hometown>
+        <highschool>Lakeshore Cath H S</highschool>
+    </player>
+    <player>
+        <number>42</number>
+        <first_name>Aram</first_name>
+        <last_name>Eisho</last_name>
+        <position>LB</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>205</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Hamilton On</hometown>
+        <highschool>St Jean De Brebeuf Cath S S</highschool>
+    </player>
+    <player>
+        <number>44</number>
+        <first_name>Spencer</first_name>
+        <last_name>Brown</last_name>
+        <position>LB</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>215</weight>
+        <elig>1</elig>
+        <faculty_program>Humanities</faculty_program>
+        <year>1</year>
+        <hometown>Osgoode On</hometown>
+        <highschool>St Joseph Cath H S</highschool>
+    </player>
+    <player>
+        <number>50</number>
+        <first_name>Jamie</first_name>
+        <last_name>Singleton</last_name>
+        <position>LB</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>213</weight>
+        <elig>1</elig>
+        <faculty_program>Science</faculty_program>
+        <year>2</year>
+        <hometown>Niagara Falls On</hometown>
+        <highschool>St Paul H S</highschool>
+    </player>
+    <player>
+        <number>51</number>
+        <first_name>Elliott</first_name>
+        <last_name>Montag</last_name>
+        <position>OL</position>
+        <ft.>6</ft.>
+        <in.>2</in.>
+        <weight>280</weight>
+        <elig>1</elig>
+        <faculty_program>H Kinesiology</faculty_program>
+        <year>3</year>
+        <hometown>Georgetown On</hometown>
+        <highschool>Christ The King Cath S S</highschool>
+    </player>
+    <player>
+        <number>52</number>
+        <first_name>Benjamin</first_name>
+        <last_name>Dand#39;Aguilar</last_name>
+        <position>LB</position>
+        <ft.>6</ft.>
+        <in.>2</in.>
+        <weight>235</weight>
+        <elig>2</elig>
+        <faculty_program>Sociology</faculty_program>
+        <year>2</year>
+        <hometown>Hamilton On</hometown>
+        <highschool>Barton S S</highschool>
+    </player>
+    <player>
+        <number>54</number>
+        <first_name>Ryan</first_name>
+        <last_name>Chmielewski</last_name>
+        <position>LB</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>220</weight>
+        <elig>5</elig>
+        <faculty_program>H Cmst and Sociol</faculty_program>
+        <year>4</year>
+        <hometown>St Catharines On</hometown>
+        <highschool>St Francis S S</highschool>
+    </player>
+    <player>
+        <number>56</number>
+        <first_name>Ryan</first_name>
+        <last_name>Saunders</last_name>
+        <position>LB</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>220</weight>
+        <elig>2</elig>
+        <faculty_program>H Kinesiology</faculty_program>
+        <year>2</year>
+        <hometown>St Catharines On</hometown>
+        <highschool>Sir Winston Churchill S S</highschool>
+    </player>
+    <player>
+        <number>59</number>
+        <first_name>Matthew</first_name>
+        <last_name>Sewell</last_name>
+        <position>OL</position>
+        <ft.>6</ft.>
+        <in.>8</in.>
+        <weight>340</weight>
+        <elig>3</elig>
+        <faculty_program>Commerce</faculty_program>
+        <year>3</year>
+        <hometown>Milton On</hometown>
+        <highschool>Berkshire Sch Massachusetts</highschool>
+    </player>
+    <player>
+        <number>61</number>
+        <first_name>Jason</first_name>
+        <last_name>Medeiros</last_name>
+        <position>OL</position>
+        <ft.>6</ft.>
+        <in.>4</in.>
+        <weight>315</weight>
+        <elig>4</elig>
+        <faculty_program>Sociology</faculty_program>
+        <year>3</year>
+        <hometown>Hamilton On</hometown>
+        <highschool>St Thomas More H S</highschool>
+    </player>
+    <player>
+        <number>62</number>
+        <first_name>Tom</first_name>
+        <last_name>Sterling</last_name>
+        <position>OL</position>
+        <ft.>6</ft.>
+        <in.>4</in.>
+        <weight>300</weight>
+        <elig>1</elig>
+        <faculty_program>Humanities</faculty_program>
+        <year>1</year>
+        <hometown>Burlington On</hometown>
+        <highschool>Assumption H S</highschool>
+    </player>
+    <player>
+        <number>63</number>
+        <first_name>Sean</first_name>
+        <last_name>Smith</last_name>
+        <position>OL</position>
+        <ft.>6</ft.>
+        <in.>7</in.>
+        <weight>325</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>St Andrews West On</hometown>
+        <highschool>St Josephs S S</highschool>
+    </player>
+    <player>
+        <number>65</number>
+        <first_name>Stephen</first_name>
+        <last_name>Schneider</last_name>
+        <position>OL</position>
+        <ft.>6</ft.>
+        <in.>5</in.>
+        <weight>305</weight>
+        <elig>3</elig>
+        <faculty_program>H Sociology</faculty_program>
+        <year>3</year>
+        <hometown>Cambridge On</hometown>
+        <highschool>St Benedict Cath S S</highschool>
+    </player>
+    <player>
+        <number>66</number>
+        <first_name>Tyler</first_name>
+        <last_name>Goldsworthy</last_name>
+        <position>OL</position>
+        <ft.>6</ft.>
+        <in.>3</in.>
+        <weight>325</weight>
+        <elig>2</elig>
+        <faculty_program>Sociology</faculty_program>
+        <year>2</year>
+        <hometown>Bowmanville On</hometown>
+        <highschool>Bowmanville H S</highschool>
+    </player>
+    <player>
+        <number>67</number>
+        <first_name>Bryce</first_name>
+        <last_name>Hudson</last_name>
+        <position>OL</position>
+        <ft.>6</ft.>
+        <in.>6</in.>
+        <weight>284</weight>
+        <elig>1</elig>
+        <faculty_program>H History and Political Science</faculty_program>
+        <year>2</year>
+        <hometown>Brampton On</hometown>
+        <highschool>Notre Dame S S</highschool>
+    </player>
+    <player>
+        <number>67</number>
+        <first_name>Nicholas</first_name>
+        <last_name>Wilson</last_name>
+        <position>OL</position>
+        <ft.>6</ft.>
+        <in.>6</in.>
+        <weight>300</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Lucan On</hometown>
+        <highschool>Medway H S</highschool>
+    </player>
+    <player>
+        <number>68</number>
+        <first_name>Christopher</first_name>
+        <last_name>Pickard</last_name>
+        <position>OL</position>
+        <ft.>6</ft.>
+        <in.>4</in.>
+        <weight>285</weight>
+        <elig>2</elig>
+        <faculty_program>H History</faculty_program>
+        <year>3</year>
+        <hometown>London On</hometown>
+        <highschool>A B Lucas S S</highschool>
+    </player>
+    <player>
+        <number>69</number>
+        <first_name>James</first_name>
+        <last_name>Moore</last_name>
+        <position>OL</position>
+        <ft.>6</ft.>
+        <in.>2</in.>
+        <weight>320</weight>
+        <elig>3</elig>
+        <faculty_program>History</faculty_program>
+        <year>3</year>
+        <hometown>Mississauga On</hometown>
+        <highschool>St Michaels Coll Sch</highschool>
+    </player>
+    <player>
+        <number>75</number>
+        <first_name>Nicholas</first_name>
+        <last_name>Andre</last_name>
+        <position>LB</position>
+        <ft.>6</ft.>
+        <in.>2</in.>
+        <weight>240</weight>
+        <elig>1</elig>
+        <faculty_program>H Kinesiology</faculty_program>
+        <year>1</year>
+        <hometown>London On</hometown>
+        <highschool>Clarke Rd S S</highschool>
+    </player>
+    <player>
+        <number>77</number>
+        <first_name>Jacob</first_name>
+        <last_name>Hopper</last_name>
+        <position>DL</position>
+        <ft.>6</ft.>
+        <in.>2</in.>
+        <weight>285</weight>
+        <elig>1</elig>
+        <faculty_program>Electrical and Biomedical Engine</faculty_program>
+        <year>2</year>
+        <hometown>East York On</hometown>
+        <highschool>East York C I</highschool>
+    </player>
+    <player>
+        <number>78</number>
+        <first_name>Adam</first_name>
+        <last_name>Dickson</last_name>
+        <position>DL</position>
+        <ft.>6</ft.>
+        <in.>4</in.>
+        <weight>345</weight>
+        <elig>2</elig>
+        <faculty_program>Engineering Physics and Manageme</faculty_program>
+        <year>2</year>
+        <hometown>Niagara Falls On</hometown>
+        <highschool>St Paul H S</highschool>
+    </player>
+    <player>
+        <number>82</number>
+        <first_name>Bradley</first_name>
+        <last_name>Fochesato</last_name>
+        <position>WR</position>
+        <ft.>6</ft.>
+        <in.>2</in.>
+        <weight>205</weight>
+        <elig>4</elig>
+        <faculty_program>H Political Science</faculty_program>
+        <year>4</year>
+        <hometown>Windsor On</hometown>
+        <highschool>Sandwich S S</highschool>
+    </player>
+    <player>
+        <number>83</number>
+        <first_name>Robert</first_name>
+        <last_name>Babic</last_name>
+        <position>WR</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>180</weight>
+        <elig>3</elig>
+        <faculty_program>Civil Engineering and Management</faculty_program>
+        <year>4</year>
+        <hometown>Oakville On</hometown>
+        <highschool>Assumption H S</highschool>
+    </player>
+    <player>
+        <number>84</number>
+        <first_name>Andrin</first_name>
+        <last_name>Masotti</last_name>
+        <position>WR</position>
+        <ft.>5</ft.>
+        <in.>10</in.>
+        <weight>150</weight>
+        <elig>1</elig>
+        <faculty_program>Humanities</faculty_program>
+        <year>1</year>
+        <hometown>Stoney Creek On</hometown>
+        <highschool>Cardinal Newman S S</highschool>
+    </player>
+    <player>
+        <number>86</number>
+        <first_name>Tyler</first_name>
+        <last_name>Loveday</last_name>
+        <position>WR</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>185</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>2</year>
+        <hometown>Kitchener On</hometown>
+        <highschool>Forest Heights C I</highschool>
+    </player>
+    <player>
+        <number>88</number>
+        <first_name>Spencer</first_name>
+        <last_name>Moore</last_name>
+        <position>WR</position>
+        <ft.>6</ft.>
+        <in.>4</in.>
+        <weight>230</weight>
+        <elig>1</elig>
+        <faculty_program>Political Science</faculty_program>
+        <year>2</year>
+        <hometown>Hamilton On</hometown>
+        <highschool>St Jean De Brebeuf Cath S S</highschool>
+    </player>
+    <player>
+        <number>90</number>
+        <first_name>Mackenzie</first_name>
+        <last_name>Dent</last_name>
+        <position>DL</position>
+        <ft.>6</ft.>
+        <in.>5</in.>
+        <weight>260</weight>
+        <elig>5</elig>
+        <faculty_program>Continuing</faculty_program>
+        <year>1</year>
+        <hometown>Waterloo On</hometown>
+        <highschool>Bluevale C I</highschool>
+    </player>
+    <player>
+        <number>92</number>
+        <first_name>Kevin</first_name>
+        <last_name>Aleinik</last_name>
+        <position>DL</position>
+        <ft.>6</ft.>
+        <in.>4</in.>
+        <weight>250</weight>
+        <elig>1</elig>
+        <faculty_program>H Kinesiology</faculty_program>
+        <year>1</year>
+        <hometown>Lancaster On</hometown>
+        <highschool>Holy Trinity Cath S S</highschool>
+    </player>
+    <player>
+        <number>94</number>
+        <first_name>Kareem</first_name>
+        <last_name>Ferreira</last_name>
+        <position>DL</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>281</weight>
+        <elig>2</elig>
+        <faculty_program>H Art</faculty_program>
+        <year>4</year>
+        <hometown>Dundas On</hometown>
+        <highschool>Westdale S S</highschool>
+    </player>
+    <player>
+        <number>95</number>
+        <first_name>Kevin</first_name>
+        <last_name>Malcolm</last_name>
+        <position>DL</position>
+        <ft.>5</ft.>
+        <in.>10</in.>
+        <weight>256</weight>
+        <elig>2</elig>
+        <faculty_program>History</faculty_program>
+        <year>2</year>
+        <hometown>Hamilton On</hometown>
+        <highschool>Bishop Tonnos Cath S S</highschool>
+    </player>
+    <player>
+        <number>99</number>
+        <first_name>Tanvir</first_name>
+        <last_name>Bhangoo</last_name>
+        <position>DL</position>
+        <ft.>6</ft.>
+        <in.>3</in.>
+        <weight>295</weight>
+        <elig>4</elig>
+        <faculty_program>H Commerce</faculty_program>
+        <year>4</year>
+        <hometown>Brampton On</hometown>
+        <highschool>Harold M Brathwaite S S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Stephen</first_name>
+        <last_name>Kofi-Akuffo</last_name>
+        <position>RB</position>
+        <ft.>5</ft.>
+        <in.>7</in.>
+        <weight>153</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Oakville On</hometown>
+        <highschool>St Ignatius Of Loyola S S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Christopher</first_name>
+        <last_name>Pray</last_name>
+        <position>OL</position>
+        <ft.>6</ft.>
+        <in.>3</in.>
+        <weight>250</weight>
+        <elig>1</elig>
+        <faculty_program>Business</faculty_program>
+        <year>1</year>
+        <hometown>Ancaster On</hometown>
+        <highschool>St Jean De Brebeuf Cath S S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Jason</first_name>
+        <last_name>Riley Jr.</last_name>
+        <position>DL</position>
+        <ft.>6</ft.>
+        <in.>4</in.>
+        <weight>240</weight>
+        <elig>1</elig>
+        <faculty_program>Sociology</faculty_program>
+        <year>2</year>
+        <hometown>Hamilton On</hometown>
+        <highschool>St Thomas More H S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Joey</first_name>
+        <last_name>Primeau</last_name>
+        <position>OL</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>280</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Elmira On</hometown>
+        <highschool>Elmira Dist S S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Michael</first_name>
+        <last_name>Smith</last_name>
+        <position>LB</position>
+        <ft.>6</ft.>
+        <in.>2</in.>
+        <weight>210</weight>
+        <elig>1</elig>
+        <faculty_program>Engineering</faculty_program>
+        <year>1</year>
+        <hometown>Freelton On</hometown>
+        <highschool>Sir Allan Macnab S S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Ryan</first_name>
+        <last_name>Silvestri</last_name>
+        <position>RB</position>
+        <ft.>5</ft.>
+        <in.>8</in.>
+        <weight>170</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Stoney Creek On</hometown>
+        <highschool>Cardinal Newman S S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Mark</first_name>
+        <last_name>Rutledge</last_name>
+        <position>WR</position>
+        <ft.>6</ft.>
+        <in.>3</in.>
+        <weight>192</weight>
+        <elig>1</elig>
+        <faculty_program>H Kinesiology</faculty_program>
+        <year>1</year>
+        <hometown>Ancaster On</hometown>
+        <highschool>Sir Allan Macnab S S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Matthew</first_name>
+        <last_name>Barker</last_name>
+        <position>DB</position>
+        <ft.>5</ft.>
+        <in.>10</in.>
+        <weight>175</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Windsor On</hometown>
+        <highschool>W F Herman C I</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Aaron</first_name>
+        <last_name>Clarke</last_name>
+        <position>QB</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>165</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Mississauga On</hometown>
+        <highschool>Lorne Park S S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Brandon</first_name>
+        <last_name>Clarke</last_name>
+        <position>WR</position>
+        <ft.>5</ft.>
+        <in.>11</in.>
+        <weight>165</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Oakville On</hometown>
+        <highschool>Holy Trinity Cath S S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Gideon</first_name>
+        <last_name>Hesman</last_name>
+        <position>DB</position>
+        <ft.>5</ft.>
+        <in.>10</in.>
+        <weight>200</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Windsor On</hometown>
+        <highschool>Sandwich S S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Doug</first_name>
+        <last_name>Vanruyven</last_name>
+        <position>DL</position>
+        <ft.>6</ft.>
+        <in.>5</in.>
+        <weight>220</weight>
+        <elig>1</elig>
+        <faculty_program>Science</faculty_program>
+        <year>2</year>
+        <hometown>Port Colborne On</hometown>
+        <highschool>Lakeshore Cath H S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Jordan</first_name>
+        <last_name>Wallace</last_name>
+        <position>WR</position>
+        <ft.>5</ft.>
+        <in.>11</in.>
+        <weight>175</weight>
+        <elig>1</elig>
+        <faculty_program>Commerce</faculty_program>
+        <year>2</year>
+        <hometown>Timberlea Ns</hometown>
+        <highschool>Sir John A Macdonald H S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Matthew</first_name>
+        <last_name>Zervos</last_name>
+        <position>DL</position>
+        <ft.>6</ft.>
+        <in.>5</in.>
+        <weight>270</weight>
+        <elig>1</elig>
+        <faculty_program>Humanities</faculty_program>
+        <year>1</year>
+        <hometown>Hamilton On</hometown>
+        <highschool>Cardinal Newman S S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Teddy</first_name>
+        <last_name>Peters</last_name>
+        <position>K/P</position>
+        <ft.>5</ft.>
+        <in.>8</in.>
+        <weight>164</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Mississauga On</hometown>
+        <highschool>St Aloysius Gonzaga S S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Jake</first_name>
+        <last_name>Langstaff</last_name>
+        <position>DL</position>
+        <ft.>6</ft.>
+        <in.>4</in.>
+        <weight>218</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Chatham On</hometown>
+        <highschool>Ursuline Coll The Pines</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Addison</first_name>
+        <last_name>Marks</last_name>
+        <position>OL</position>
+        <ft.>5</ft.>
+        <in.>10</in.>
+        <weight>280</weight>
+        <elig>1</elig>
+        <faculty_program>Social Sciences</faculty_program>
+        <year>1</year>
+        <hometown>Burlington On</hometown>
+        <highschool>M M Robinson H S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Maxim</first_name>
+        <last_name>Mezzabotta</last_name>
+        <position>WR</position>
+        <ft.>6</ft.>
+        <in.>1</in.>
+        <weight>185</weight>
+        <elig>1</elig>
+        <faculty_program>Humanities</faculty_program>
+        <year>1</year>
+        <hometown>Burlington On</hometown>
+        <highschool>Notre Dame Roman Cath S S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Bradley</first_name>
+        <last_name>Minns</last_name>
+        <position>OL</position>
+        <ft.>6</ft.>
+        <in.>6</in.>
+        <weight>310</weight>
+        <elig>1</elig>
+        <faculty_program>H Kinesiology</faculty_program>
+        <year>2</year>
+        <hometown>London On</hometown>
+        <highschool>Sir Wilfrid Laurier S S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Matthew</first_name>
+        <last_name>Nicol</last_name>
+        <position>WR</position>
+        <ft.>5</ft.>
+        <in.>9</in.>
+        <weight>170</weight>
+        <elig>1</elig>
+        <faculty_program>H Kinesiology</faculty_program>
+        <year>2</year>
+        <hometown>Ottawa On</hometown>
+        <highschool>Hillcrest H S</highschool>
+    </player>
+    <player>
+        <number>100</number>
+        <first_name>Andrew</first_name>
+        <last_name>Surya</last_name>
+        <position>DB</position>
+        <ft.>5</ft.>
+        <in.>10</in.>
+        <weight>190</weight>
+        <elig>2</elig>
+        <faculty_program>H Kinesiology</faculty_program>
+        <year>3</year>
+        <hometown>Burlington On</hometown>
+        <highschool>Notre Dame Roman Cath S S</highschool>
+    </player>
+</players>
