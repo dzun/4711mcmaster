@@ -1,3 +1,8 @@
+<?php
+function comp($a, $b) {
+    return $b->first_name - $a->first_name;
+}
+?>
 <div class="body">
 
     <br />
@@ -22,32 +27,19 @@
         </tr>
         
 <?php
-    $xmlDoc = new DOMDocument();
-    $xmlDoc->load('data/MaraudersRoster.xml');
-    $player = $xmlDoc->getElementsByTagName('player');
-    //$first_name = $xmlDoc->getElementsByTagName('first_name');
-    //$list_last_name = array();
+    $players = new SimpleXMLElement('data/MaraudersRoster.xml', null, true);
 
-    foreach ($player as $elem) {
-        echo '<tr><td>';
-        echo $elem->getElementsByTagName('number')
-                -> item(0)
-                ->nodeValue;
-        echo '</td><td>';
-        echo $elem->getELementsByTagName('last_name')
-                ->item(0)
-                ->nodeValue;
-        echo '</td><td>';
-        echo $elem->getElementsByTagName('first_name')
-                -> item(0)
-                ->nodeValue;
-        echo '</td><td>';
-        echo $elem->getElementsByTagName('position')
-                -> item(0)
-                ->nodeValue;
-        echo '</td></tr>';
-    
-    
+    foreach ($players as $player) {
+        echo <<<EOF
+        <tr>
+            <td>{$player->number} </td>
+            <td>{$player->last_name}</td>
+            <td>{$player->first_name}</td>
+            <td>{$player->position}</td>
+        </tr>
+EOF;
+    }
+
      ?>
     </table>
     <a href="http://www.marauders.ca/sports/2011/8/31/FB-2011-roster.aspx?path=football"
