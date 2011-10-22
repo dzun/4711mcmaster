@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:element name="schedule" type="scheduleType"/>
+    
+    <xsd:complexType name="scheduleType">
+        <xsd:sequence>
+            <xsd:element name="game" type="gameType"/>
+        </xsd:sequence>
+        <xsd:attribute name="date"  use="required"/>
+    </xsd:complexType>
+
+    <xsd:complexType name="gameType">
+        <xsd:sequence>
+            <xsd:element name="away" type="awayType"/>
+            <xsd:element name="home" type="homeType"/>
+            <xsd:element name="status" type="statusType"/>
+            <xsd:element name="result" type="resultType"/>
+        </xsd:sequence>
+    </xsd:complexType>
+    
+    <xsd:complexType name="awayType">
+        <xsd:attribute name="team"  use="required"/>
+        <xsd:attribute name="score"  use="required"/>    
+    </xsd:complexType>
+    
+    <xsd:complexType name="homeType">
+        <xsd:attribute name="team"  use="required"/>
+        <xsd:attribute name="score"  use="required"/>    
+    </xsd:complexType>
+    
+    <xsd:complexType name="statusType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string"/>
+        </xsd:simpleContent>
+    </xsd:complexType>
+    
+    <xsd:complexType name="resultType">
+        <xsd:simpleContent>
+            <xsd:extension base="xsd:string"/>
+        </xsd:simpleContent>
+    </xsd:complexType>
+
+</xsd:schema>

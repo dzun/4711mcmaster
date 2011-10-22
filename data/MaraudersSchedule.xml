@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : MaraudersSchedule.xml
+    Created on : October 21, 2010, 6:32 AM
+    Author     : alistair and daisy
+    Description:
+        Schedule for the McMaster Marauders football team.
+-->
+
+<!DOCTYPE schedule SYSTEM 'MaraudersSchedule.xsd'>
+
+<schedule>
+    <game date="Sep. 5">
+        <away team="McMaster" score="26"></away>
+        <home team="Queen's" score="2"></home>
+        <status>final</status>
+        <result>win</result>
+    </game>
+    <game date="Sep. 10">
+        <away team="Western" score="48"></away>
+        <home team="McMaster" score="21"></home>
+        <status>final</status>
+        <result>loss</result>
+    </game>
+    <game date="Sep. 17">
+        <away team="McMaster" score="21"></away>
+        <home team="Windsor" score="19"></home>
+        <status>final</status>
+        <result>win</result>
+    </game>
+    <game date="Sep. 24">
+        <away team="McMaster" score="37"></away>
+        <home team="Guelph" score="13"></home>
+        <status>final</status>
+        <result>win</result>
+    </game>
+    <game date="Oct. 1">
+        <away team="Waterloo" score="20"></away>
+        <home team="McMaster" score="46"></home>
+        <status>final</status>
+        <result>win</result>
+    </game>
+    <game date="Oct. 6">
+        <away team="Toronto" score="14"></away>
+        <home team="McMaster" score="50"></home>
+        <status>final</status>
+        <result>win</result>
+    </game>
+    <game date="Oct. 15">
+        <away team="McMaster" score="25"></away>
+        <home team="Laurier" score="6"></home>
+        <status>final</status>
+        <result>win</result>
+    </game>
+    <game date="Oct. 22">
+        <away team="Ottawa" score="na"></away>
+        <home team="McMaster" score="na"></home>
+        <status>Pending</status>
+        <result>na</result>
+    </game>
+</schedule>
