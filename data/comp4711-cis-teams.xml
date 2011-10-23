@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--    Student project groups for COMP4711, fall 2011 -->
+<projects>
+    <conferences>
+        <conference code="AUS">Atlantic University</conference>
+        <conference code="RSEQ">Quebec University</conference>
+        <conference code="OUA">Ontario University</conference>
+        <conference code="WEST">Canada West</conference>
+    </conferences>    
+    <teams>
+        <group code="ubc">
+            <institute city="Vancouver" prov="BC">University of British Columbia</institute>
+            <team conf="WEST">Thunderbirds</team>
+            <website>http://gothunderbirds.ca/</website>
+            <helmet>UBC_BC</helmet>
+            <logo>UBC_Thunderbirds_Logo.png</logo>
+            <members set="D">
+                <member email="andy@manaon.com">Skrynnyk, A</member>
+            </members>
+            <note>Minimal site, meets the bare minimum.</note>
+        </group>
+        <group code="calgary">
+            <institute city="Calgary" prov="AB">University of Calgary</institute>
+            <team conf="WEST">Dinos</team>
+            <website>http://www.godinos.com/</website>
+            <helmet>Calgary_AB</helmet>
+            <logo>Calgary_Dinos_Logo.png</logo>
+            <members set="D">
+                <member email="krimznmoon@gmail.com">Ho, S</member>
+                <member>Minhas, P</member>
+            </members>
+            <note>A bit more elaborate.
+                <br/>Meets needs.
+            </note>
+        </group>
+        <group code="alberta">
+            <institute city="Edmonton" prov="AB">University of Alberta</institute>
+            <team conf="WEST">Golden Bears</team>
+            <website>http://www.bears.ualberta.ca/</website>
+            <helmet>Alberta</helmet>
+            <logo>Alberta_Golden_Bears_Logo.png</logo>
+            <members set="D">
+                <member email="ltran46@my.bcit.ca">Tran, L</member>
+                <member>Perrson, M</member>
+            </members>
+            <note>Meets minimum. 
+                <br/>Footer links awkward visually. 
+                <br/>
+            I want to know which of the characters in the homepage is Lawrence and which is Mike.
+            </note>
+        </group>
+        <group code="regina">
+            <institute city="Regina" prov="SK">University of Regina</institute>
+            <team conf="WEST">Rams</team>
+            <website>http://www.reginarams.com/index.html</website>
+            <helmet>Regina_SK</helmet>
+            <logo>Regina_Rams_Logo.jpg</logo>
+            <members set="X">
+                <member email="jim_parry@bcit.ca">Jim Parry</member>
+            </members>
+        </group>
+        <group code="saskatchewan">
+            <institute city="Saskatoon" prov="SK">University of Saskatchewan</institute>
+            <team conf="WEST">Huskies</team>
+            <website>http://huskies.usask.ca/Home_Left/mens_sports/football/index.php</website>
+            <helmet>Saskatchewan</helmet>
+            <logo>Saskatchewan_Huskies_Logo.png</logo>
+            <members set="C">
+                <member email="cwardell@kibblegames.com">Wardell, Caleb</member>
+                <member>Hu, John</member>
+            </members>
+            <note>
+                Team switch for assignment 2
+            </note>
+        </group>
+        <group code="manitoba">
+            <institute city="Winnipeg" prov="MB">University of Manitoba</institute>
+            <team conf="WEST">Bisons</team>
+            <website>http://gobisons.ca/</website>
+            <helmet>Manitoba</helmet>
+            <logo>Manitoba_Bisons_Logo.png</logo>
+        </group>
+        <group code="windsor">
+            <institute city="Windsor" prov="ON">University of Windsor</institute>
+            <team conf="OUA">Lancers</team>
+            <website>http://www.golancers.ca/</website>
+            <helmet>Windsor_ON</helmet>
+            <logo>WindsorLancers.png</logo>
+            <members set="C">
+                <member email="lili_hao@hotmail.com">Hao, Lili</member>
+                <member>Khadarina, Mila</member>
+            </members>
+            <note>More CIS-centric than Windosr-centric. 
+                <br/>Meets minimum.
+            </note>
+        </group>
+        <group code="western">
+            <institute city="London" prov="ON">University of Western Ontario</institute>
+            <team conf="OUA">Mustangs</team>
+            <website>http://www.westernmustangs.ca/</website>
+            <helmet>Western_Ontario</helmet>
+            <logo>WesternOntarioMustangslogo.png</logo>
+            <members set="D">
+                <member email="pdd830218@gmail.com">Pan, D</member>
+            </members>
+            <note>Meets minimum. 
+                <br/>Nice to have color palette &amp; intro on homepage.
+            </note>
+        </group>
+        <group code="waterloo">
+            <institute city="Waterloo" prov="ON">University of Waterloo</institute>
+            <team conf="OUA">Warriors</team>
+            <website>http://www.athletics.uwaterloo.ca/</website>
+            <helmet>Waterloo_ON</helmet>
+            <logo>WaterlooWarriors.png</logo>
+            <members set="D">
+                <member email="ac.mendoza@gmail.com">Mendoza, A</member>
+                <member>Nakhostin, I</member>
+            </members>
+            <note>Looks good. 
+                <br/>We need to talk about facebook integration. 
+            </note>
+        </group>
+        <group code="laurier">
+            <institute city="Waterloo" prov="ON">Wilfred Laurier University</institute>
+            <team conf="OUA">Golden Hawks</team>
+            <website>http://www.athletics.wlu.ca/</website>
+            <helmet>Wilfrid_Laurier_ON_OLD2</helmet>
+            <logo>LaurierGoldenHawks.png</logo>
+        </group>
+        <group code="guelph">
+            <institute city="Guelph" prov="ON">University of Guelph</institute>
+            <team conf="OUA">Gryphons</team>
+            <website>http://www.gryphons.ca/</website>
+            <helmet>Guelph_ON</helmet>
+            <logo>Guelph_Gryphons.png</logo>
+        </group>
+        <group code="mcmaster">
+            <institute city="Hamilton" prov="ON">McMaster University</institute>
+            <team conf="OUA">Marauders</team>
+            <website>http://www.athrec.mcmaster.ca/athletics/</website>
+            <helmet>McMaster_ON</helmet>
+            <logo>McMasterMaraudersLogo.png</logo>
+            <members set="C">
+                <member email="yuen.daisy@gmail.com">Yuen, Daisy</member>
+                <member>Beck, Alistair</member>
+            </members>
+            <note>Nicely done. 
+                <br/>Links to "real" material a good idea.
+            </note>
+        </group>
+        <group code="toronto">
+            <institute city="Toronto" prov="ON">University of Toronto</institute>
+            <team conf="OUA">Varsity Blues</team>
+            <website>http://www.varsityblues.ca/</website>
+            <helmet>Toronto_ON</helmet>
+            <logo>Varsity_Blues_Logo.png</logo>
+            <members set="D">
+                <member email="ncfk_@hotmail.com">Kanaganayagam, C</member>
+                <member>Wong, B</member>
+            </members>
+            <note>Meets minimal reqs, I think. 
+                <br/>Interesting to have home page body repeated three times - 
+            to make sure the reader gets the message? and that they get excited about CodeIgniter?? Hmmm.
+                <br/>
+            Your horizontal menu doesn't fit the banner well - might want to resize one of them.
+                <br/>
+            Typos on the homepage (Legue vs League, Upadate vs Update) are unprofessional.
+            </note>
+        </group>
+        <group code="york">
+            <institute city="Toronto" prov="ON">York University</institute>
+            <team conf="OUA">Lions</team>
+            <website>http://www.sport.yorku.ca/index.asp</website>
+            <helmet>York_ON</helmet>
+            <logo>YorkLions.jpg</logo>
+            <members set="D">
+                <member email="hdang10@my.bcit.ca">Dang, H</member>
+            </members>
+            <note>Meets the minimum. 
+                <br/>Nice to have some York background.
+            </note>
+        </group>
+        <group code="queens">
+            <institute city="Kingston" prov="ON">Queen's University</institute>
+            <team conf="OUA">Golden Gaels</team>
+            <website>http://www.gogaelsgo.com/</website>
+            <helmet>Queen's_ON</helmet>
+            <logo>Queen's_Golden_Gaels_Logo.png</logo>
+            <members set="D">
+                <member email="daveyforeman@hotmail.com">Foreman, D Sr</member>
+                <member>Randa, J</member>
+            </members>
+            <note>Just a bit(?) wider than spec, but it sort of scales to narrower browser window.
+                <br/>
+            The color scheme is wonderful, if one is color-blind. 
+                <br/>Do I sense Jordan's fashion sense here?
+            </note>
+        </group>
+        <group code="ottawa">
+            <institute city="Ottawa" prov="ON">University of Ottawa</institute>
+            <team conf="OUA">Gee-Gees</team>
+            <website>http://www.geegees.ca/</website>
+            <helmet>Ottawa_ON</helmet>
+            <logo>Ottawageegees.png</logo>
+            <members set="D">
+                <member email="teng.b.chiang@gmail.com">Chiang, T</member>
+            </members>
+            <note>Might meet minimal specs. 
+                <br/>
+            I don't see anything team specific on the site. 
+                <br/>
+            The home page is not linked to in the navbar?? 
+            </note>
+        </group>
+        <group code="concordia">
+            <institute city="Montreal" prov="QC">Concordia University</institute>
+            <team conf="RSEQ">Stingers</team>
+            <website>http://www.stingers.ca/</website>
+            <helmet>Concordia_QC</helmet>
+            <logo>Concordia_Stingers_Buzz.png</logo>
+        </group>
+        <group code="montreal">
+            <institute city="Montreal" prov="QC">Université de Montréal</institute>
+            <team conf="RSEQ">Carabins</team>
+            <website>http://www.carabins.umontreal.ca/</website>
+            <helmet>Montreal_PQ</helmet>
+            <logo>Carabins.png</logo>
+            <members set="D">
+                <member email="">Hajj Sleiman, Z</member>
+            </members>
+            <note>Looks good. 
+                <br/>Might want to tone down the banner past the homepage.
+            </note>
+        </group>
+        <group code="mcgill">
+            <institute city="Montreal" prov="QC">McGill University</institute>
+            <team conf="RSEQ">Redmen</team>
+            <website>http://www.athletics.mcgill.ca/</website>
+            <helmet>McGill_QC</helmet>
+            <logo>McGill_Redmen_Logo.png</logo>
+            <members set="D">
+                <member email="">Gannon, D Jr</member>
+            </members>
+            <note>Oops - looks like auditing had good intentions but...</note>
+        </group>
+        <group code="laval">
+            <institute city="Quebec City" prov="QC">Université Laval</institute>
+            <team conf="RSEQ">Rouge et Or</team>
+            <website>http://www.rougeetor.ulaval.ca/</website>
+            <helmet>Laval_PQ</helmet>
+            <logo>RTEmagicC_logo-Rouge-et-Or_png.png</logo>
+            <members set="C">
+                <member email="cwardell@kibblegames.com">Wardell, Caleb</member>
+                <member>Hu, John</member>
+            </members>
+            <note>Hmmm - pretty minimalist, not centered. 
+                <br/>Switching to Saskatchewan
+            </note>
+        </group>
+        <group code="sherbrooke">
+            <institute city="Sherbrooke" prov="QC">Université de Sherbrooke</institute>
+            <team conf="RSEQ">Vert et Or</team>
+            <website>http://www.usherbrooke.ca/sport/</website>
+            <helmet>Sherbrooke_PQ</helmet>
+            <logo>Vert_et_or.jpg</logo>
+        </group>
+        <group code="bishops">
+            <institute city="Sherbrooke" prov="QC">Bishop's University</institute>
+            <team conf="RSEQ">Gaiters</team>
+            <website>http://gaiters.ca/</website>
+            <helmet>Bishop's_QC</helmet>
+            <logo>BUathletic.jpg</logo>
+            <members set="C">
+                <member email="vishav27@gmail.com">Singh, Preet</member>
+                <member>Law, Alex</member>
+            </members>
+            <note>Meets minimal reqs. 
+                <br/>Need to fix the navbar styling (width)
+            </note>
+        </group>
+        <group code="acadia">
+            <institute city="Wolfville" prov="NS">Acadia University</institute>
+            <team conf="AUS">Axemen</team>
+            <website>http://www.acadiau.ca/sports/homepage.htm</website>
+            <helmet>Acadia_NS</helmet>
+            <logo>AcadiaAxemen.jpg</logo>
+            <members set="D">
+                <member email="rchang47@my.bcit.ca">Chang, R</member>
+            </members>
+            <note>Mock content good idea. 
+                <br/>Minimal team-related imagery.
+            </note>
+        </group>
+        <group code="mountallison">
+            <institute city="Sackville" prov="NB">Mount Allison University</institute>
+            <team conf="AUS">Mounties</team>
+            <website>http://athletics.mta.ca/</website>
+            <helmet>Mount_Allison_NB</helmet>
+            <logo>MountAllisonMounties.jpg</logo>
+        </group>
+        <group code="stfx">
+            <institute city="Antigonish" prov="NS">Saint Francis Xavier University</institute>
+            <team conf="AUS">X-Men</team>
+            <website>http://www.goxgo.ca/</website>
+            <helmet>St_Francis_Xavier_NS</helmet>
+            <logo>St._FX_Logo.jpg</logo>
+        </group>
+        <group code="saintmarys">
+            <institute city="Halifax" prov="NS">Saint Mary's University</institute>
+            <team conf="AUS">Huskies</team>
+            <website>http://www.smuhuskies.ca/</website>
+            <helmet>Saint_Marys_NS</helmet>
+            <logo>Smuhuskieslogo.gif</logo>
+            <members set="C">
+                <member email="glesp87@gmail.com">Lesperance, G</member>
+                <member>Cawker, B</member>
+            </members>
+            <note>Looks good.</note>
+        </group>
+    </teams>
+</projects>
