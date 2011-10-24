@@ -157,7 +157,7 @@ table.table th
     font-weight: bold;
 } 
 
-div.rosterTable{
+div.overflowTable{
     overflow: auto;
     height: 225px;
     

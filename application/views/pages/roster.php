@@ -22,7 +22,7 @@ function comp($a, $b)
         </form>
     </div>
     
-    <div class="rosterTable">
+    <div class="overflowTable">
          <table border="1" class="table">
             <tr>
                 <th>Position</th>
