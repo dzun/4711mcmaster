@@ -15,6 +15,7 @@ class roster extends CI_Controller
         $data['title'] = '4711 project';
         $data['body'] = 'roster';
         $data['result'] = $this->getXMLArray();
+        $data['data'] = &$data;
 
         if (isset($_POST['sortby'])) {
             $data['sortby'] = $_POST['sortby'];
@@ -29,12 +30,17 @@ class roster extends CI_Controller
 
         $index = 0;
         foreach ($xml->player as $player) {
-            $row = array();
-            $row['number'] = $player->number;
-            $row['first_name'] = (string) ($player->first_name);
-            $row['last_name'] = (string) $player->last_name;
-            $row['position'] = (string) $player->position;
+<<<<<<< Updated upstream
+            $row = array((string) $player->number, (string) $player->first_name,
+                    (string) $player->last_name, (string) $player->position);
             array_push($result, $row);
+=======
+            $row = array($player->number, $player->first_name,
+                    $player->last_name, $player->position);
+
+            $result[$index] = $row;
+            $index++;
+>>>>>>> Stashed changes
         }
         return $result;
     }
