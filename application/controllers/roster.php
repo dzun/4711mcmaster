@@ -24,17 +24,16 @@ class roster extends CI_Controller
     }
 
     public function getXMLArray() {
-        $xml = simplexml_load_file('data/MaraudersRoster.xml');
+        $xml = simplexml_load_file('./data/MaraudersRoster.xml');
         $result = array();
 
         $index = 0;
-        foreach ($xml->players as $player) {
-            $row = array($player->number, $player->first_name,
-                    $player->last_name, $player->position);
-
-            $result[$index] = $row;
-            $index++;
+        foreach ($xml->player as $player) {
+            $row = array((string) $player->number, (string) $player->first_name,
+                    (string) $player->last_name, (string) $player->position);
+            array_push($result, $row);
         }
+        return $result;
     }
 }
 ?>

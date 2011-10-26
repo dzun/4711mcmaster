@@ -25,8 +25,9 @@ function row_from_array($data) {
             <input type="submit" value="Submit"/>
         </form>
     </div>
-    
+   
     <div class="overflowTable">
+        <?php var_dump($result); ?>
          <table border="1" class="table">
             <tr>
                 <th>Position</th>
@@ -35,10 +36,9 @@ function row_from_array($data) {
                 <th>Jersey</th>
             </tr>
             <?php
+
             foreach ($result as $player => $one_player) {
-                foreach ($one_player as $data => $one_cell) {
-                    row_from_array($one_cell);
-                }
+                    row_from_array($one_player);
             }
             ?>
         </table>
