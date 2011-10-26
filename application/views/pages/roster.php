@@ -1,8 +1,12 @@
 <?php
 
-function comp($a, $b)
-{
-    return $b->first_name - $a->first_name;
+// function that takes an array and prints out elements as data rows
+function row_from_array($data) {
+    echo '<tr>';
+    foreach ($data as $cell) {
+        echo '<td>' . $cell . '</td>';
+    }
+    echo '<tr>';
 }
 ?>
 <div class="body">
@@ -30,20 +34,11 @@ function comp($a, $b)
                 <th>First Name</th>
                 <th>Jersey</th>
             </tr>
-
             <?php
-            $players = new SimpleXMLElement('data/MaraudersRoster.xml', null, true);
-
-            foreach ($players as $player)
-            {
-                echo <<<EOF
-        <tr>
-            <td>{$player->number} </td>
-            <td>{$player->last_name}</td>
-            <td>{$player->first_name}</td>
-            <td>{$player->position}</td>
-        </tr>
-EOF;
+            foreach ($result as $player => $one_player) {
+                foreach ($one_player as $data => $one_cell) {
+                    row_from_array($one_cell);
+                }
             }
             ?>
         </table>
