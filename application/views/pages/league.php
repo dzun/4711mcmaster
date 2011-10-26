@@ -28,7 +28,7 @@
                         <tr>
                             <th>Institute</th>
                             <th>Official Site</th>
-                            <th>Group Site</th>
+                            <th>Group1 Site</th>
                             <th>Member 1</th>
                             <th>Member 2</th>
                         </tr>
@@ -50,6 +50,7 @@ TABLE;
                                 </a>
                             </td>
                             <td>
+                                    
                                 <a href="http://{$group['code']}.bcitxml.com" target=_new>
                                     {$group->team}
                                 </a>

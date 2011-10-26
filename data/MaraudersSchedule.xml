@@ -8,9 +8,9 @@
         Schedule for the McMaster Marauders football team.
 -->
 
-<!DOCTYPE schedule SYSTEM 'MaraudersSchedule.xsd'>
-
-<schedule>
+<schedule xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" 
+             xsd:noNamespaceSchemaLocation="MaraudersSchedule.xsd">
+                 
     <game gamedate="Sep 5">
         <away team="McMaster" score="26"></away>
         <home team="Queen's" score="2"></home>
